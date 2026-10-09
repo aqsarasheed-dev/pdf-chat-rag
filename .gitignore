@@ -218,3 +218,23 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+.env
+
+# Vector DB / local stores
+chroma_db/
+*.sqlite3
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python cache
+__pycache__/
+*.pyc
+
+.env
+chroma_db/
+data/*.pdf
+venv/
+.venv/
+__pycache__/
